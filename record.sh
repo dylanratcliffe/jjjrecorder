@@ -10,4 +10,4 @@ ffmpeg -i https://abcradiolivehls-lh.akamaihd.net/i/triplejnsw_1@327300/master.m
   -t $duration \
   -map 0:a:3 \
   -loglevel info \
-  $(date).aac >> output.log 2>&1 < /dev/null
+  /download/$(date).aac >> /download/output.log 2>&1 < /dev/null
