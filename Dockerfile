@@ -7,4 +7,4 @@ COPY . .
 
 ENV PATH="/app:${PATH}"
 
-ENTRYPOINT ["download.sh"]
+ENTRYPOINT ["record.sh"]
